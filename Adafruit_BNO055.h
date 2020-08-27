@@ -23,7 +23,7 @@
 #define __ADAFRUIT_BNO055_H__
 
 #include "Arduino.h"
-#include <Wire.h>
+#include <i2c_driver_wire.h>
 
 #include "utility/imumaths.h"
 #include <Adafruit_Sensor.h>
